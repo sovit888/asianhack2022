@@ -1,0 +1,28 @@
+.login-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+.login-right {
+  text-align: center;
+}
+.bg-green {
+  background-color: #62c35a;
+}
+.bg-greyish {
+  background-color: #fcddec;
+}
+.bg-greyish.btn:hover {
+  background-color: #fcddec !important;
+  color: #f12323;
+  opacity: 0.8;
+}
+.text-greyish {
+  color: #f12323;
+}
+.shadow {
+  padding: 10px;
+  box-shadow: 0 -3 3px rgba(0, 0, 0, 0.32);
+}

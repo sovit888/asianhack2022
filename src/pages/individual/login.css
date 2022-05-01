@@ -1,0 +1,21 @@
+.login-individual {
+  padding: 10px 20px;
+  width: 80%;
+  max-width: 500px;
+  margin: 3% auto;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.register-individual {
+  padding: 10px 20px;
+  width: 80%;
+  max-width: 900px;
+  margin: 3% auto;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.login-individual img,
+.register-individual img {
+  height: 90px;
+  width: 90px;
+  display: block;
+  margin: auto;
+}

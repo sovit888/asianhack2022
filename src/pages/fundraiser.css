@@ -1,0 +1,11 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+.widgets img {
+  width: 100%;
+  display: block;
+  height: 200px;
+  object-fit: contain;
+}
